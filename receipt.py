@@ -12,7 +12,6 @@ while name != "stop" :
         items.append(item)
         item= input("enter item: ")
         total += price
-    print (items)
     
     dictionary1= {
         "name" : name,
@@ -21,12 +20,12 @@ while name != "stop" :
         "total": total,
     }
 
-    print(dictionary1)
 
     name= input("enter new name: ")
     dictionaries.append(dictionary1)
 
 print(dictionaries)
+
 
 
         
