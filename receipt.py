@@ -1,4 +1,4 @@
-name= input("enter name: ")
+name= input("enter receipt name: ")
 dictionaries = []
 while name != "stop" :
     
@@ -21,7 +21,7 @@ while name != "stop" :
     }
 
 
-    name= input("enter new name: ")
+    name= input("enter new receipt name: ")
     dictionaries.append(dictionary1)
 
 print(dictionaries)
